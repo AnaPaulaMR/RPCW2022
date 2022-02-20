@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+    <meta>
+        <title></title>
+        <bdate></bdate>
+        <edate></edate>
+        <author>
+            <name>Ana Paula Matos Ribeiro</name>
+            <email>pg47841@alunos.uminho.pt</email>
+        </author>
+        <uc>Representação e Processamento de Conhecimento na Web</uc>
+    </meta>
+
+    <abstract>
+        <p></p>
+    </abstract>
+    
+    <deliverables>
+        <file href="" />
+    </deliverables>
+</manifest>
