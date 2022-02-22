@@ -2,9 +2,9 @@
 
 <manifest>
     <meta>
-        <title></title>
+        <title>Página Web sobre o Japão</title>
         <bdate>20-02-2022</bdate>
-        <edate></edate>
+        <edate>22-02-2022</edate>
         <author>
             <name>Ana Paula Matos Ribeiro</name>
             <email>pg47841@alunos.uminho.pt</email>
@@ -13,10 +13,23 @@
     </meta>
 
     <abstract>
-        <p></p>
+        <p>Neste TPC foi-nos pedido o desenvolvimento de uma página Web sobre um dos temas dados. A sofisticação da mesma foi deixada ao critério de cada aluno.</p>
+        <p>O tema que escolhi foi o Japão, nomeadamente algumas maravilhas naturais a visitar.</p>
+        <p>Como já tenho alguma experiência com HTML e CSS, a parte prática não se mostrou um desafio demasiado complicado. No entanto tive algumas dificuldades.</p>
+        <p>A minha maior dificuldade foi o tema e a informação a colocar na página, não tenho grande experiência/imaginação com a parte de design de uma página.
+        Por esta razão, tanto as imagens como a maioria da informação dada na página vêm deste <a href="https://www.guiadasemana.com.br/turismo/galeria/maravilhas-naturais-no-japao">site</a>.</p>
     </abstract>
     
     <deliverables>
-        <file href="" />
+        <file href="index.html" />
+        <file href="core.css" />
+        <file href="Akiyoshido.jpg" />
+        <file href="BaíaDeKabira.jpg" />
+        <file href="CataratasDeNachi.jpg" />
+        <file href="DunasDeTottori.jpg" />
+        <file href="FlagOfJapan.png" />
+        <file href="MountFuji.jpg" />
+        <file href="Sagano.jpg" />
+        <file href="Takachiho.jpg" />
     </deliverables>
 </manifest>

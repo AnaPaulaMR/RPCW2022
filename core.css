@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #fefefe;
+    margin:  0
+}
+
+header {
+    background-color: #232323;
+    color: #fefefe;
+    height: 100px;
+}
+
+header > * {
+    float: left;
+    margin: 10px 0 10px 50px;
+    height: 80px;
+    line-height: 80px;
+}
+
+#main > article {
+    text-align: center;
+    margin: 20px auto;
+    padding: 50px;
+    width: calc(200vw / 3);
+}
+
+#main > article:not(:first-child) {
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
+#main > article > img {
+    width: calc((200vw / 3) - 100px);
+}
+
+#main > article > h3, p {
+    text-align: justify;
+}
