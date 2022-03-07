@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC2: Servidor que retorna as páginas web pedidas</titulo>
+        <data>22-02-2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>O TPC desta semana consistia em gerar uma página Web para cada registo, filme, do<xref><url>cinemaATP.json</url><text>ficheiro cinemaATP</text></xref> e criar um servidor para distribuir estas páginas.</p>
+        <p>Tinhamos também a opção de criar uma página 'index.html' com a lista dos ficheiros e um apontador a fazer o pedido de cada um destes.</p>
+        <p>Para além disso, podiamos também fazer uma página para cada ator, com os filmes em que este participou.</p>
+        <p>Eu optei por fazer todos estes passos.<p>
+        <p>Optei também por retornar erro quando a rota dada é diferente de '/', '/filmes', '/atores', 'filmes/f[...]' e '/atores/a[...]'.</p>
+        <p>Nos três primeiros casos retorna o ficheiro 'index.html', nos restates retorna o ficheiro 'f[...].html' ou 'a[...].html' caso este exista.</p>
+        <p>O ficheiro 'index.html' parece ter alguma dificuldade a carregar mas penso ser por as listas serem bastante extensas.</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>cinemaATP.json</url>
+            <texto>Ficheiro JSON com os dados</texto>
+        </resultado>
+        <resultado>
+            <url>conversor.js</url>
+            <texto>Programa que gera as páginas Web</texto>
+        </resultado>
+        <resultado>
+            <url>servidor.js</url>
+            <texto>Servidor que retorna as páginas Web</texto>
+        </resultado>
+    </resultados>
+</doc>
