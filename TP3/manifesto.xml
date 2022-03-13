@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC3: Serviço que retorna valores de uma API de dados</titulo>
+        <data>08-03-2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Para este TPC, foi-nos pedida a criação de um serviço, que corre na porta 4000, que faz pedidos 'GET' à API de dados a correr na porta 3000.</p>
+        <p>Quando a rota está vazia, o serviço devolve uma página web com os links para pedir a lista de alunos, cursos e instrumentos.</p>
+        <p>Quando a rota é alunos, cursos, ou instrumentos, o serviço devolve uma página web com uma tabela com a lista de alunos, cursos ou instrumentos, respetivamente.</p>
+        <p>Para álem disso, ao clicar numa linha da tabela de cursos, somos dirigidos para a página com a tabela com os alunos deste curso.</p>
+        <p>Ao clicar numa linha da tabela de alunos, somos dirigidos para a página com a tabela com o instrumento deste aluno.</p>
+        <p>Ao clicar numa linha da tabela de instrumentos, somos dirigidos para a página com a tabela com os cursos que utilizam este instrumento.</p>
+        <p>Podemos também fazer os nossos pedidos personalizados, diretamente a partir do url. Por exemplo: 'http://localhost:4000/alunos?_sort=id' ordena os alunos por id.</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>db.json</url>
+            <texto>Dataset da escola de música</texto>
+        </resultado>
+        <resultado>
+            <url>serviço.js</url>
+            <texto>Serviço que diponibiliza os dados da escola de música</texto>
+        </resultado>
+    </resultados>
+</doc>
