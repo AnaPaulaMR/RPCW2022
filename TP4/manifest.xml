@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC4: Fazer uma página web para tarefas.</titulo>
+        <data>15-03-2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>O trabalho consistia em fazer um serviço web para tarefas.</p>
+        <p>Este serviço consite num form para a nova tarefa e duas listas, tarefas por fazer e tarefas realizadas.</p>
+        <p>Ao carregar no certo, a tarefa por fazer tornasse realizada.</p>
+        <p>Ao carregar no editar, as informações da tarefa vão para o form. Ao registar esta é atualizada.</p>
+        <p>Ao carregar no X, a tarefa é apagada.</p>
+        <p>Ao registar, caso a tarefa não exista, esta é criada.</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>todoSPA.js</url>
+            <texto>Serviço</texto>
+        </resultado>
+        <resultado>
+            <url>tasks.json</url>
+            <texto>API de dados</texto>
+        </resultado>
+    </resultados>
+</doc>

@@ -1,0 +1,21 @@
+{
+    "tarefas": 
+    [
+        {
+            "id": "t1",
+            "type": "porfazer",
+            "description": "Fazer o TPC de RPCW.",
+            "dateCreated": "2022-3-21",
+            "dateDue": "2022-03-22",
+            "owner": "Ana"
+        },
+        {
+            "id": "t2",
+            "type": "realizada",
+            "description": "Fazer o TP de EG.",
+            "dateCreated": "2022-03-07",
+            "dateDue": "2022-03-14",
+            "owner": "Ana"
+        }
+    ]
+}
