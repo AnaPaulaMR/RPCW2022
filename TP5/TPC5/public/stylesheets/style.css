@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #000000;
+}
+
+table {
+  line-height: 25px;
+  width: 100%;
+}
+
+tr:first-child {
+  background-color: #008080;
+}
+
+tr:nth-child(even) {
+  background-color: #DDDDDD;
+}

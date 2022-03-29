@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1 Identificação de Música #{musica.id}
+  h2 29 de Março de 2022
+  
+  p
+    b Provincia: 
+    = musica.prov
+  p
+    b Localidade: 
+    = musica.local
+  p
+    b Título: 
+    = musica.tit
+  p
+    b Musico: 
+    = musica.musico
+  p
+    b Duração: 
+    = musica.duracao
+
+  hr
+  address
+    a(href="/musicas") Voltar à lista

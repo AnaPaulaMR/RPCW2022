@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC5: Web Page com Expresss</titulo>
+        <data>22-03-2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>O trabalho consistia em utilizar o express para fazer uma aplicação que nos apresenta a lista de musicas, as informações da música e a lista de músicas dada uma provincia.</p>
+        <p>A API de dados é feita ainda através do json-server.</p>
+        <p>Utilizei um ficheiro converter.js para colocar ids em todos os objetos, no entanto a conversão do ficheiro para o formato JSON foi feita manualmente dada a facilidade da transformação.</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>converter.js</url>
+            <texto>Conversor</texto>
+        </resultado>
+        <resultado>
+            <url>arq-son-EVO.json</url>
+            <texto>Dados</texto>
+        </resultado>
+        <resultado>
+            <url>app.js</url>
+            <texto>Servidor inicial gerado pelo express-generator.</texto>
+        </resultado>
+    </resultados>
+</doc>

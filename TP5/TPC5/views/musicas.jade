@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1 Lista de Músicas
+  h2 29 de Março de 2022
+  
+  table
+    tr
+      th Provincia
+      th Localidade
+      th Título
+      th Músico
+      th Duração
+    each m in musicas
+      tr
+        td
+          a(href="/musicas/prov/" + m.prov)=  m.prov
+        td= m.local
+        td
+          a(href="/musicas/" + m.id)=  m.tit
+        td= m.musico
+        td= m.duracao
