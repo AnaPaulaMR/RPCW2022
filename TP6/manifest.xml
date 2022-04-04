@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC6: WebApp de gestão de ficheiros</titulo>
+        <data>29-03-2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>Para este trabalho precisavamos de fazer uma WebApp para gestão de ficheiros.</p>
+        <p>Eu optei por usar a base de dados do MongoDB.</p>
+        <p>Ao submeter, a data do upload, a descrição, o path, o nome original, o tipo e o tamanho do ficheiro são guardados na base de dados.</p>
+        <p>O ficheiro fica guardado na pasta uploads.</p>
+        <p>A clicar no X o ficheiro é eliminado da base de dados mas não da pasta uploads.</p>
+        <p>Ao clicar no nome do ficheiro, podemos fazer o download deste.</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>app.js</url>
+            <texto>Servidor</texto>
+        </resultado>
+    </resultados>
+</doc>
