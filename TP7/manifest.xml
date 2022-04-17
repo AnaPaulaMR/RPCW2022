@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <titulo>TPC7: CLAV</titulo>
+        <data>05/04/2022</data>
+        <autor>
+            <id>PG47841</id>
+            <nome>Ana Paula Matos Ribeiro</nome>
+        </autor>
+        <uc>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
+        </uc>
+    </meta>
+
+    <resumo>
+        <p>O TPC desta semana consistia em resolver o exercicio 2 da 
+            <xref>
+                <url>https://www4.di.uminho.pt/~jcr/AULAS/didac/RepFichas/site/fichas/pri-2021-normal.html</url>
+                <text>página apresentada pelo professor</text>
+            </xref>
+        .</p>
+    </resumo>
+    
+    <resultados>
+        <resultado>
+            <url>app.js</url>
+            <texto>Servidor do TPC</texto>
+        </resultado>
+    </resultados>
+</doc>
